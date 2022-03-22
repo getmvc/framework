@@ -1,5 +1,5 @@
 <?php
-namespace GetMVC\Framwork;
+namespace GetMVC\Framework;
 
 
 class View {
