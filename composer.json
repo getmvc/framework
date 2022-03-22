@@ -1,0 +1,12 @@
+{
+    "name": "getmvc/framework",
+    "description": "GetMVC lightweight php framwork",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Getmvc\\Framework\\": "src/"
+        }
+    },
+    "require": {}
+}
