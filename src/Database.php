@@ -4,7 +4,10 @@ namespace GetMVC\Framework;
 
 class Database {
     
-    public static $PDO;
+    //Sigleton object
+    private static $PDO;
+    
+    //Configs
     public static $host;
     public static $user;
     public static $pass;
