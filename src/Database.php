@@ -4,11 +4,11 @@ namespace GetMVC\Framework;
 
 class Database {
     
-    private static $PDO;
-    private static $host;
-    private static $user;
-    private static $pass;
-    private static $dbname;
+    public static $PDO;
+    public static $host;
+    public static $user;
+    public static $pass;
+    public static $dbname;
     
     /**
      * @return PDO
