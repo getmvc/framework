@@ -1,7 +1,7 @@
 <?php
 namespace GetMVC\Framework;
 
-class Router {
+class Routes {
     
     private static $routes = array();
     
@@ -13,7 +13,7 @@ class Router {
      * @param string $path Ex: <br> /store <br> /store/categories <br> /store/category/$id <br> /seller/$id/profile
      * @param string $function Function to call
      */
-    public static function add_route($name, $method, $path, $function) {
+    public static function add($name, $method, $path, $function) {
     
         self::$routes[$name] = array('method' => strtoupper($method), 'path' => $path, 'function' => $function);
         
